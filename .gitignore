@@ -1,0 +1,4 @@
+*.vcf
+data*
+.DS_Store
+license.txt
