@@ -30,3 +30,7 @@ The demographics preprocessing is done in the `demographic-preprocessing.ipynb` 
 
 
 ## Model and training
+After preprocessing, model training can be performed using the `model.ipynb` notebook. The notebook reads the preprocessed data and trains the model as described in the paper.
+
+Currently, the notebook is set up for multi-class classification.
+For the binary classification task, the respective dataset must be specified and the target datatype changed to float32. A respective comment can be found in the dataset definition. 
