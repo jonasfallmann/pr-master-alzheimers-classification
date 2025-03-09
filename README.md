@@ -14,6 +14,9 @@ To reproduce the dataset, a database extract from ADNI must be obtained. The spe
 
 ![ADNI Filters](imgs/cohort.png)
 
+Images can be downloaded directly. For SNPs, simply download all VCF files from the ADNI database. 
+For demographics, select MMSE score, diagnosis, subject age and biological sex and add them to the collection. This collection can then be downloaded as a CSV file.
+
 ## Preprocessing
 Preprocessing is done in three steps:
 1. MRI preprocessing
