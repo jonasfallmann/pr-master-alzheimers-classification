@@ -1,6 +1,19 @@
 # AI Masters Program Practical Work: Alzheimer's classification
 In this practical work the aim was to reproduce the paper [A Deep Generative-Discriminative Learning for Multi-modal Representation in Imaging Genetics](https://ieeexplore.ieee.org/stamp/stamp.jsp?tp=&arnumber=9434063).
 
+![Architecture](imgs/architecture_overview.png)
+
+## Dependencies
+Dependencies can be found in the `requirements.yml` file. To install the dependencies, run:
+```bash
+conda env create -f requirements.yml
+```
+
+## Database extract
+To reproduce the dataset, a database extract from ADNI must be obtained. The specific filters are specified as follows:
+
+![ADNI Filters](imgs/cohort.png)
+
 ## Preprocessing
 Preprocessing is done in three steps:
 1. MRI preprocessing
